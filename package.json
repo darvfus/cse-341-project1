@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "my first project",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darvfus/cse-341-project1.git"
+  },
+  "author": "Daniel Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darvfus/cse-341-project1/issues"
+  },
+  "homepage": "https://github.com/darvfus/cse-341-project1#readme"
+}
