@@ -2,14 +2,16 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongodb": "^6.12.0"
+    "mongodb": "^6.12.0",
+    "swagger-autogen": "^2.23.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
   },
   "scripts": {
     "start": "node server.js",
-    "dev_start": "nodemon server.js"
+    "dev_start": "nodemon server.js",
+    "swagger-autogen": "node generate-swagger.js"
   },
   "name": "project1",
   "version": "1.0.0",
