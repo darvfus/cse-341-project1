@@ -5,7 +5,7 @@ const doc = {
         title: "Users API",
         description: "API for managing user contacts"
     },
-    host: "localhost:3000", // o la URL de tu servidor
+    host: "https://cse-341-project1-kiy0.onrender.com", // o la URL de tu servidor
     schemes: ["http"]
 };
 

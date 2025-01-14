@@ -29,3 +29,24 @@ DELETE http://localhost:3000/users/67865b6e6c92b66494d63cfe HTTP/1.1
 
 
 
+// REnder 
+### Get all contacts
+GET https://cse-341-project1-kiy0.onrender.com/users 
+
+
+### POST - create contact
+POST https://cse-341-project1-kiy0.onrender.com/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
+}
+### PUT - update contact
+PUT https://cse-341-project1-kiy0.onrender.com/users/6786ba6b80849662cddf2765 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
+}
+### DELETE contact
+DELETE https://cse-341-project1-kiy0.onrender.com/users/67865a786c92b66494d63cfb HTTP/1.1
