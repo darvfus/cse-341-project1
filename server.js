@@ -1,21 +1,33 @@
 const express = require('express');
-
+const port = process.env.PORT || 3000;
+var logger = require('morgan');
+const bodyParser = require('body-parser');
 const mongodb = require('./data/database');
+
 const app = express();
 
-const port = process.env.PORT || 3000;
+app
+  .use(bodyParser.json())
+  .use(logger('dev'))
+  .use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader(
+      'Access-Control-Allow-Headers',
+      'Origin, X-Requested-With, Content-Type, Accept'
+    );
+    res.setHeader(
+      'Access-Control-Allow-Methods',
+      'GET, POST, PATCH, PUT, DELETE, OPTIONS'
+    );
+    next();
+  })
+  .use('/', require('./routes'));
 
-app.use('/', require('./routes'));
-
-mongodb.initDb((err) =>{
-if(err){
+mongodb.initDb((err) => {
+  if (err) {
     console.log(err);
-}
-else{
-    app.listen(port, () => {
-        console.log(`Database is listening node Running on port ${port}`);
-      });
-}
+  } else {
+    app.listen(port);
+    console.log(`Connected to DB and listening on ${port}`);
+  }
 });
-
-
