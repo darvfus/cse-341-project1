@@ -17,14 +17,14 @@ content-type: application/json
     "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
 }
 ### PUT - update contact
-PUT http://localhost:3000/users/67865b6e6c92b66494d63cfe HTTP/1.1
+PUT http://localhost:3000/users/6786c0faa8840b394de35012 HTTP/1.1
 content-type: application/json
 
 {
     "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
 }
 ### DELETE contact
-DELETE http://localhost:3000/users/67865b6e6c92b66494d63cfe HTTP/1.1
+DELETE http://localhost:3000/users/6786c0faa8840b394de35012 HTTP/1.1
 
 
 
@@ -39,14 +39,14 @@ POST https://cse-341-project1-kiy0.onrender.com/users HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
+    "firstName": "Maria", "lastName": "SAnchez", "email": "MSanchez@gmail.com", "favoriteColor": "pink", "birthday": "09-15-2000"
 }
 ### PUT - update contact
-PUT https://cse-341-project1-kiy0.onrender.com/users/6786ba6b80849662cddf2765 HTTP/1.1
+PUT https://cse-341-project1-kiy0.onrender.com/users/6786c1c476c009e242cbf396 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
+    "firstName": "Maria", "lastName": "SAnchez", "email": "MSanchez@gmail.com", "favoriteColor": "pink", "birthday": "09-15-2000"
 }
 ### DELETE contact
-DELETE https://cse-341-project1-kiy0.onrender.com/users/67865a786c92b66494d63cfb HTTP/1.1
+DELETE https://cse-341-project1-kiy0.onrender.com/users/6786c1a876c009e242cbf395 HTTP/1.1

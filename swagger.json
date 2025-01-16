@@ -5,10 +5,10 @@
     "description": "API for managing user contacts",
     "version": "1.0.0"
   },
-  "host": "https://cse-341-project1-kiy0.onrender.com",
+  "host": "cse-341-project1-kiy0.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
