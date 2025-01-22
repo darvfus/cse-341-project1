@@ -2,8 +2,8 @@ const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
   info: {
-    title: "Users API Romero",
-    description: "API for managing user contacts"
+    title: "Users API Romero VErgara",
+    description: "API for managing user contacts_final "
   },
   host: 'https://project2-p1-cse341.onrender.com', // URL pública de tu servidor en producción
   schemes: ["https"], // Usar HTTPS en producción
