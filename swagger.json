@@ -5,10 +5,10 @@
     "description": "API for managing user contacts",
     "version": "1.0.0"
   },
-  "host": "cse-341-project1-kiy0.onrender.com",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/": {
@@ -21,7 +21,7 @@
         }
       }
     },
-    "/users/": {
+    "/cinemas/": {
       "get": {
         "description": "",
         "produces": [
@@ -42,19 +42,25 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "name": {
                   "example": "any"
                 },
-                "lastName": {
+                "location": {
                   "example": "any"
                 },
-                "email": {
+                "capacity": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "openingHours": {
                   "example": "any"
                 },
-                "birthday": {
+                "amenities": {
+                  "example": "any"
+                },
+                "contactNumber": {
+                  "example": "any"
+                },
+                "isOpen": {
                   "example": "any"
                 }
               }
@@ -71,7 +77,7 @@
         }
       }
     },
-    "/users/{id}": {
+    "/cinemas/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -106,19 +112,25 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "name": {
                   "example": "any"
                 },
-                "lastName": {
+                "location": {
                   "example": "any"
                 },
-                "email": {
+                "capacity": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "openingHours": {
                   "example": "any"
                 },
-                "birthday": {
+                "amenities": {
+                  "example": "any"
+                },
+                "contactNumber": {
+                  "example": "any"
+                },
+                "isOpen": {
                   "example": "any"
                 }
               }

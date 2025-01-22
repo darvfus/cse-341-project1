@@ -12,7 +12,7 @@
     "swagger": "node ./swagger.js"
   },
   "keywords": [],
-  "author": "Panashe Gonese",
+  "author": "Daniel Romero",
   "license": "ISC",
   "description": "",
   "dependencies": {

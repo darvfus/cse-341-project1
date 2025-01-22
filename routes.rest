@@ -1,28 +1,40 @@
 // Local Host
 ### Get all contacts
-GET http://localhost:3000/users 
+GET http://localhost:3000/cinemas 
 
 
 ####User contat by id 
 
 
-GET http://localhost:3000/users/67803dfcc31f58d7dc2161c8
+GET http://localhost:3000/cinemas/679018f6be2c5a72e7e3e87b
 
 
 ### POST - create contact
-POST http://localhost:3000/users HTTP/1.1
+POST http://localhost:3000/cinemas HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
-}
+    "name": "Cine Arte Oaxaca",
+    "location": "Oaxaca, Oaxaca",
+    "capacity": 90,
+    "openingHours": "12:00 PM - 10:00 PM",
+    "amenities": ["Indie Movies", "Coffee Shop"],
+    "contactNumber": "9512345678",
+    "isOpen": true
+  }
 ### PUT - update contact
-PUT http://localhost:3000/users/6786c0faa8840b394de35012 HTTP/1.1
+PUT http://localhost:3000/cinemas/6790ec2238e8f839fe7e1eff HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
-}
+    "name": "Cine Arte Oaxacffha",
+    "location": "Oaxaca, Oaxacda",
+    "capacity": 90,
+    "openingHours": "12:00 PM - 10:00 PM",
+    "amenities": ["Indie Movies", "Coffee Shop"],
+    "contactNumber": "9512345678",
+    "isOpen": true
+  }
 ### DELETE contact
 DELETE http://localhost:3000/users/6786c0faa8840b394de35012 HTTP/1.1
 
@@ -39,14 +51,14 @@ POST https://cse-341-project1-kiy0.onrender.com/users HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Maria", "lastName": "SAnchez", "email": "MSanchez@gmail.com", "favoriteColor": "pink", "birthday": "09-15-2000"
+    "firstName": "Tailor", "lastName": "Smith", "email": "TSmith@gmail.com", "favoriteColor": "black", "birthday": "09-15-2000"
 }
 ### PUT - update contact
 PUT https://cse-341-project1-kiy0.onrender.com/users/6786c1c476c009e242cbf396 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Maria", "lastName": "SAnchez", "email": "MSanchez@gmail.com", "favoriteColor": "pink", "birthday": "09-15-2000"
+    "firstName": "Tailor", "lastName": "Smith", "email": "TSmith@gmail.com", "favoriteColor": "black", "birthday": "09-15-2000"
 }
 ### DELETE contact
-DELETE https://cse-341-project1-kiy0.onrender.com/users/6786c1a876c009e242cbf395 HTTP/1.1
+DELETE https://cse-341-project1-kiy0.onrender.com/users/678873a5f4181cd09c25355b HTTP/1.1

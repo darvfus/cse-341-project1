@@ -5,6 +5,7 @@ router.get('/', (req, res) => {
   res.send('Hello World');
 });
 
-router.use('/users',require('./users'));
+// Correct use of the cinemas route
+router.use('/cinemas', require('./cinemas'));  // Make sure cinemas.js is exporting a router
 
 module.exports = router;
