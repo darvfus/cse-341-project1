@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Users API",
+    "title": "Users API Romero",
     "description": "API for managing user contacts",
     "version": "1.0.0"
   },
