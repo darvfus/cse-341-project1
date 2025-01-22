@@ -23,7 +23,11 @@ content-type: application/json
     "isOpen": true
   }
 ### PUT - update contact
+<<<<<<< HEAD
 PUT http://localhost:3000/cinemas/6790ec2238e8f839fe7e1eff HTTP/1.1
+=======
+PUT http://localhost:3000/users/67865b6e6c92b66494d63cfe HTTP/1.1
+>>>>>>> parent of 564dd64 ("corrections of week 02")
 content-type: application/json
 
 {
@@ -36,7 +40,7 @@ content-type: application/json
     "isOpen": true
   }
 ### DELETE contact
-DELETE http://localhost:3000/users/6786c0faa8840b394de35012 HTTP/1.1
+DELETE http://localhost:3000/users/67865b6e6c92b66494d63cfe HTTP/1.1
 
 
 
@@ -51,14 +55,25 @@ POST https://cse-341-project1-kiy0.onrender.com/users HTTP/1.1
 content-type: application/json
 
 {
+<<<<<<< HEAD
     "firstName": "Tailor", "lastName": "Smith", "email": "TSmith@gmail.com", "favoriteColor": "black", "birthday": "09-15-2000"
+=======
+    "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
+>>>>>>> parent of 564dd64 ("corrections of week 02")
 }
 ### PUT - update contact
-PUT https://cse-341-project1-kiy0.onrender.com/users/6786c1c476c009e242cbf396 HTTP/1.1
+PUT https://cse-341-project1-kiy0.onrender.com/users/6786ba6b80849662cddf2765 HTTP/1.1
 content-type: application/json
 
 {
+<<<<<<< HEAD
     "firstName": "Tailor", "lastName": "Smith", "email": "TSmith@gmail.com", "favoriteColor": "black", "birthday": "09-15-2000"
 }
 ### DELETE contact
 DELETE https://cse-341-project1-kiy0.onrender.com/users/678873a5f4181cd09c25355b HTTP/1.1
+=======
+    "firstName": "Jhon", "lastName": "Tailor", "email": "Jtailor123@gmail.com", "favoriteColor": "purple", "birthday": "09-15-1999"
+}
+### DELETE contact
+DELETE https://cse-341-project1-kiy0.onrender.com/users/67865a786c92b66494d63cfb HTTP/1.1
+>>>>>>> parent of 564dd64 ("corrections of week 02")

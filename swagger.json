@@ -5,10 +5,14 @@
     "description": "API for managing user contacts_final ",
     "version": "1.0.0"
   },
+<<<<<<< HEAD
   "host": "https://project2-p1-cse341.onrender.com",
+=======
+  "host": "https://cse-341-project1-kiy0.onrender.com",
+>>>>>>> parent of 564dd64 ("corrections of week 02")
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/": {
